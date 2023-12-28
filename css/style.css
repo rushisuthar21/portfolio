@@ -223,19 +223,19 @@ span {
   width: 90%;
 }
 .ccpp-bar {
-  width: 50%;
+  width: 30%;
 }
 .python-bar {
-  width: 60%;
+  width: 40%;
 }
 .css-bar {
-  width: 60%;
+  width: 30%;
 }
 .js-bar {
-  width: 50%;
+  width: 20%;
 }
-.java-bar {
-  width: 60%;
+.java-bar   {
+  width: 30%;
 }
 .flutter-bar {
   width: 40%;
@@ -244,7 +244,7 @@ span {
   width: 40%;
 }
 .dbs-bar {
-  width: 80%;
+  width: 60%;
 }
 
 
