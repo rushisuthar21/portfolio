@@ -2,16 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import {
-  FaReact,
-  FaNodeJs,
-  FaDatabase,
-  FaJs,
-  FaHtml5,
-  FaCss3Alt,
-  FaCloud,
-} from "react-icons/fa";
-
 
 /* ---------------- SLIDER IMAGES ---------------- */
 const ikeaImages = [
