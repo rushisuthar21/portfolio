@@ -1,0 +1,1 @@
+This repository contains the source code for my personal portfolio website. It showcases my projects, skills, and experience, and serves as a central place to highlight my work. Built with a focus on clean design, performance, and responsiveness.
