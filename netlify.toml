@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[context.production.environment]
+  GO_VERSION = "1.19.x" 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
