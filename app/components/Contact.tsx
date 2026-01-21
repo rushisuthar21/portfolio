@@ -75,7 +75,7 @@ const Contact = () => {
       <div className="relative max-w-5xl mx-auto px-6 font-sarala z-10">
         <div className="text-center mb-16">
           <h2 className="relative text-4xl font-bold inline-block heading text-gray-900 dark:text-white">
-            Let's Connect !!!
+            Let&apos;s Connect !!!
             <span className="absolute inset-x-0 bottom-[-6px] h-6 bg-yellow-200 dark:bg-yellow-500 blur-sm opacity-40 rounded-md translate-y-2"></span>
           </h2>
         </div>
@@ -89,7 +89,7 @@ const Contact = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Drop a message and let’s get started! ✨
+              Drop a message and let&apos;s get started! ✨
             </p>
 
             <div className="mt-8 flex justify-center md:justify-start space-x-8 text-yellow-400">

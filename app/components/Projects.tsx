@@ -12,16 +12,6 @@ import {
   FaCloud,
 } from "react-icons/fa";
 
-/* ---------------- FLOATING ICONS ---------------- */
-const floatingIcons = [
-  { icon: <FaReact className="text-blue-300 text-3xl" /> },
-  { icon: <FaNodeJs className="text-green-400 text-3xl" /> },
-  { icon: <FaDatabase className="text-yellow-400 text-3xl" /> },
-  { icon: <FaJs className="text-yellow-500 text-3xl" /> },
-  { icon: <FaHtml5 className="text-orange-500 text-3xl" /> },
-  { icon: <FaCss3Alt className="text-blue-500 text-3xl" /> },
-  { icon: <FaCloud className="text-blue-300 text-3xl" /> },
-];
 
 /* ---------------- SLIDER IMAGES ---------------- */
 const ikeaImages = [
