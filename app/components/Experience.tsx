@@ -42,6 +42,27 @@ const experiences = [
     icon: <FaBriefcase className="text-red-500 text-xl" />,
   },
   {
+    title: "Marketing & Sales Intern",
+    company: "Sultani Marketing",
+    date: "Aug 2024 - Feb 2025",
+    description: [
+      "🚀 Led end-to-end website redesign from scratch, focusing on modern UI, clear content structure, and brand consistency to improve user experience and online presence.",
+      "🔍 Conducted market, audience, and competitor research to support marketing campaigns, content strategy, and data-driven sales decisions.",
+      "📊 Created and managed engaging content for social media platforms and blogs, while contributing innovative ideas to marketing strategies, lead generation, and sales initiatives.",
+    ],
+    techStack: [
+      "Website Redesign",
+      "Content Creation",
+      "Social Media Marketing",
+      "Market Research",
+      "Competitor Analysis",
+      "Branding",
+      "SEO",
+      "Content Marketing",
+    ],
+    icon: <FaBriefcase className="text-red-500 text-xl" />,
+  },
+  {
     title: "Digital Marketing Intern",
     company: "21Twelve Interactive LLP",
     date: "May 2023 - Nov 2023",
