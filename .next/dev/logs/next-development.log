@@ -1,7 +1,6 @@
-[00:00:07.683] Server  LOG     ✓ Ready in 6.2s
-[00:00:54.493] Server  LOG     ○ Compiling / ...
-[00:01:09.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:10.563] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:02.185] Server  LOG     ✓ Ready in 1501ms
+[00:00:10.982] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.089] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -29,12 +28,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "94.25144081541755%"
--                             top: "80.0781%"
-+                             left: "41.24774798032755%"
--                             left: "72.6819%"
-+                             transform: "translateX(-385.40545397245205px) translateY(-133.9774672002812px)"
--                             transform: "translateX(391.12px) translateY(203.885px)"
++                             top: "64.45354734968622%"
+-                             top: "25.341%"
++                             left: "34.391735173820784%"
+-                             left: "86.4344%"
++                             transform: "translateX(376.07039642350117px) translateY(-74.44455771661984px)"
+-                             transform: "translateX(180.585px) translateY(-92.5726px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -42,12 +41,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "17.19860306324761%"
--                             top: "42.2694%"
-+                             left: "94.33727577131165%"
--                             left: "59.3986%"
-+                             transform: "translateX(-80.30273392443587px) translateY(101.0669685372078px)"
--                             transform: "translateX(-151.148px) translateY(-239.482px)"
++                             top: "3.0115559398287695%"
+-                             top: "15.7926%"
++                             left: "63.78302590440661%"
+-                             left: "94.0003%"
++                             transform: "translateX(28.45922482785096px) translateY(-166.49573020194964px)"
+-                             transform: "translateX(-123.05px) translateY(89.7082px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -55,12 +54,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "82.93697845688939%"
--                             top: "51.7713%"
-+                             left: "30.70443941454747%"
--                             left: "70.3541%"
-+                             transform: "translateX(149.73849745117923px) translateY(-129.12572915442485px)"
--                             transform: "translateX(285.869px) translateY(-94.7574px)"
++                             top: "41.95977250319308%"
+-                             top: "70.9609%"
++                             left: "73.92338940594479%"
+-                             left: "88.2453%"
++                             transform: "translateX(334.1200982104249px) translateY(146.41931989668808px)"
+-                             transform: "translateX(111.313px) translateY(-63.9398px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -68,12 +67,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "84.69422731853062%"
--                             top: "86.0089%"
-+                             left: "91.8752690326377%"
--                             left: "42.8921%"
-+                             transform: "translateX(179.28736171227592px) translateY(292.5105174906414px)"
--                             transform: "translateX(-85.3685px) translateY(-293.71px)"
++                             top: "53.431794411637604%"
+-                             top: "69.9173%"
++                             left: "91.60017567989064%"
+-                             left: "73.4453%"
++                             transform: "translateX(2.4392914203914984px) translateY(-202.75836458708284px)"
+-                             transform: "translateX(-38.5234px) translateY(-40.2718px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -81,12 +80,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "89.55674527051445%"
--                             top: "63.3391%"
-+                             left: "14.956600292005584%"
--                             left: "13.9373%"
-+                             transform: "translateX(258.25951107920537px) translateY(206.09929099972305px)"
--                             transform: "translateX(-260.008px) translateY(-219.603px)"
++                             top: "0.8904362092321483%"
+-                             top: "30.891%"
++                             left: "90.41943833254237%"
+-                             left: "8.4126%"
++                             transform: "translateX(-310.6103624748599px) translateY(134.72681996634253px)"
+-                             transform: "translateX(-386.034px) translateY(-242.985px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -94,12 +93,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "62.23937866571073%"
--                             top: "72.9319%"
-+                             left: "20.24691220924063%"
--                             left: "30.4864%"
-+                             transform: "translateX(-262.66047025592775px) translateY(-17.357724231415375px)"
--                             transform: "translateX(25.1152px) translateY(-10.7669px)"
++                             top: "0.8485914490395707%"
+-                             top: "41.6457%"
++                             left: "65.37509009248805%"
+-                             left: "97.2619%"
++                             transform: "translateX(183.02667061726027px) translateY(80.30686283987984px)"
+-                             transform: "translateX(202.833px) translateY(72.3042px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -107,12 +106,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "86.27958552865789%"
--                             top: "31.6335%"
-+                             left: "50.01625447736723%"
--                             left: "85.4928%"
-+                             transform: "translateX(-372.430275258957px) translateY(-94.19571194682482px)"
--                             transform: "translateX(-232.527px) translateY(-93.9441px)"
++                             top: "57.608185865155406%"
+-                             top: "79.707%"
++                             left: "84.70970262496236%"
+-                             left: "0.969455%"
++                             transform: "translateX(235.0431525051373px) translateY(-262.24980235537276px)"
+-                             transform: "translateX(102.689px) translateY(-4.9771px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -120,12 +119,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "80.42264279382152%"
--                             top: "31.4397%"
-+                             left: "57.77052936408944%"
--                             left: "24.7188%"
-+                             transform: "translateX(353.7081427957545px) translateY(-236.44622250301373px)"
--                             transform: "translateX(67.5824px) translateY(210.498px)"
++                             top: "84.68548528367315%"
+-                             top: "70.7777%"
++                             left: "66.647937899153%"
+-                             left: "60.9424%"
++                             transform: "translateX(-109.42223273057488px) translateY(84.14015756971628px)"
+-                             transform: "translateX(-56.5231px) translateY(237.461px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -133,12 +132,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "67.44994803184993%"
--                             top: "72.9423%"
-+                             left: "90.02111809910996%"
--                             left: "14.6672%"
-+                             transform: "translateX(228.78427689931812px) translateY(21.67147884733322px)"
--                             transform: "translateX(73.6127px) translateY(288.169px)"
++                             top: "2.1818597160394693%"
+-                             top: "94.9493%"
++                             left: "52.485081022698644%"
+-                             left: "46.189%"
++                             transform: "translateX(-144.3959713098356px) translateY(-177.93098159962318px)"
+-                             transform: "translateX(-68.6843px) translateY(194.898px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -146,12 +145,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "96.06253220432704%"
--                             top: "87.0507%"
-+                             left: "92.71839258719733%"
--                             left: "54.7791%"
-+                             transform: "translateX(-307.39889898395035px) translateY(-11.358244407518384px)"
--                             transform: "translateX(-239.202px) translateY(220.984px)"
++                             top: "53.26897104727979%"
+-                             top: "48.0726%"
++                             left: "49.337935710240735%"
+-                             left: "35.1017%"
++                             transform: "translateX(399.1237157173308px) translateY(-246.22103829074598px)"
+-                             transform: "translateX(90.4425px) translateY(220.315px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -159,12 +158,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "62.46652212494293%"
--                             top: "36.4673%"
-+                             left: "70.12327518521731%"
--                             left: "9.18359%"
-+                             transform: "translateX(379.3017409975005px) translateY(99.85214276155631px)"
--                             transform: "translateX(-20.1638px) translateY(-45.831px)"
++                             top: "99.63866911831055%"
+-                             top: "34.613%"
++                             left: "59.011547977484945%"
+-                             left: "82.5307%"
++                             transform: "translateX(327.8451968376854px) translateY(-33.927787258442606px)"
+-                             transform: "translateX(119.896px) translateY(212.096px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -180,12 +179,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "33.90587913891826%"
--                             top: "46.6529%"
-+                             left: "93.01699095868733%"
--                             left: "57.9331%"
-+                             transform: "translateX(-26.914932488088084px) translateY(-395.15642054683894px)"
--                             transform: "translateX(164.897px) translateY(339.907px)"
++                             top: "92.78597144698192%"
+-                             top: "36.2269%"
++                             left: "87.62575276763668%"
+-                             left: "66.8209%"
++                             transform: "translateX(391.94648032929763px) translateY(337.255493106049px)"
+-                             transform: "translateX(-369.612px) translateY(-314.897px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -193,12 +192,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "98.94152460261576%"
--                             top: "47.2102%"
-+                             left: "97.160115745277%"
--                             left: "36.2209%"
-+                             transform: "translateX(-138.3659141689476px) translateY(-85.66179533237391px)"
--                             transform: "translateX(128.42px) translateY(-352.612px)"
++                             top: "85.16545842541233%"
+-                             top: "32.7587%"
++                             left: "29.695348130449606%"
+-                             left: "11.1202%"
++                             transform: "translateX(-190.0265040973478px) translateY(313.9646053844151px)"
+-                             transform: "translateX(-275.969px) translateY(-133.698px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -206,12 +205,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "93.06618413816865%"
--                             top: "36.703%"
-+                             left: "31.60935588875472%"
--                             left: "80.6067%"
-+                             transform: "translateX(26.370090617513483px) translateY(-168.29007102677326px)"
--                             transform: "translateX(184.927px) translateY(292.936px)"
++                             top: "35.13438671559063%"
+-                             top: "2.33637%"
++                             left: "62.492549155134945%"
+-                             left: "53.1584%"
++                             transform: "translateX(-300.8025935864759px) translateY(314.60925900050654px)"
+-                             transform: "translateX(-132.845px) translateY(93.5983px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -219,12 +218,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "85.08419173880495%"
--                             top: "47.2762%"
-+                             left: "37.15294130174105%"
--                             left: "93.4804%"
-+                             transform: "translateX(-320.1677637631469px) translateY(30.385326546155852px)"
--                             transform: "translateX(-260.475px) translateY(42.3259px)"
++                             top: "6.7150133806955115%"
+-                             top: "90.819%"
++                             left: "55.98650899743017%"
+-                             left: "46.6118%"
++                             transform: "translateX(-32.803815426238714px) translateY(363.3406278686397px)"
+-                             transform: "translateX(-35.1575px) translateY(-138.713px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -232,12 +231,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "46.774141269356804%"
--                             top: "13.9401%"
-+                             left: "8.348642043809395%"
--                             left: "23.9434%"
-+                             transform: "translateX(95.81057154098403px) translateY(346.26288981738287px)"
--                             transform: "translateX(-195.578px) translateY(208.993px)"
++                             top: "80.01958532966424%"
+-                             top: "42.2928%"
++                             left: "45.95022923409513%"
+-                             left: "20.529%"
++                             transform: "translateX(182.66113002424197px) translateY(-70.69757068542862px)"
+-                             transform: "translateX(177.599px) translateY(-90.0355px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -245,12 +244,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "28.481359454499067%"
--                             top: "86.2802%"
-+                             left: "98.20382514198072%"
--                             left: "60.408%"
-+                             transform: "translateX(-356.7629157386223px) translateY(54.397061820215754px)"
--                             transform: "translateX(-91.5954px) translateY(255.377px)"
++                             top: "15.618920396351898%"
+-                             top: "3.82552%"
++                             left: "44.05861287794329%"
+-                             left: "46.8659%"
++                             transform: "translateX(-40.19485902247919px) translateY(-224.5535121685478px)"
+-                             transform: "translateX(208.718px) translateY(-330.676px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -266,12 +265,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "28.161563307927462%"
--                             top: "77.8496%"
-+                             left: "75.08533154298955%"
--                             left: "98.0132%"
-+                             transform: "translateX(160.45266848021492px) translateY(99.74318999463333px)"
--                             transform: "translateX(-131.536px) translateY(318.16px)"
++                             top: "43.7754620966253%"
+-                             top: "15.9719%"
++                             left: "92.9137058117985%"
+-                             left: "85.7509%"
++                             transform: "translateX(-16.691635201398185px) translateY(286.7165720768546px)"
+-                             transform: "translateX(-264.175px) translateY(-172.466px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -279,12 +278,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "49.08158164097409%"
--                             top: "6.32932%"
-+                             left: "36.21065987950879%"
--                             left: "91.6165%"
-+                             transform: "translateX(-301.9790316907743px) translateY(-294.7908153834278px)"
--                             transform: "translateX(384.038px) translateY(172.475px)"
++                             top: "21.896222159087653%"
+-                             top: "86.3187%"
++                             left: "99.70980627510035%"
+-                             left: "76.5485%"
++                             transform: "translateX(182.60476405925408px) translateY(140.4193052501895px)"
+-                             transform: "translateX(222.179px) translateY(-71.041px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -292,12 +291,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "6.377108210848526%"
--                             top: "17.1528%"
-+                             left: "66.00460749367947%"
--                             left: "17.7723%"
-+                             transform: "translateX(-239.6856409497178px) translateY(-238.97880439616924px)"
--                             transform: "translateX(351.33px) translateY(-215.778px)"
++                             top: "77.15038224998393%"
+-                             top: "95.829%"
++                             left: "16.42382310530026%"
+-                             left: "49.8904%"
++                             transform: "translateX(-329.17206825557076px) translateY(-374.8770886531831px)"
+-                             transform: "translateX(-139.089px) translateY(-199.723px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -305,12 +304,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "75.41051539369838%"
--                             top: "35.9421%"
-+                             left: "22.947583040037543%"
--                             left: "57.6592%"
-+                             transform: "translateX(318.24650212730467px) translateY(-146.4939429415085px)"
--                             transform: "translateX(229.616px) translateY(-332.606px)"
++                             top: "21.63007031888836%"
+-                             top: "85.4373%"
++                             left: "90.61955497971087%"
+-                             left: "97.9789%"
++                             transform: "translateX(256.14382231362765px) translateY(274.07347565506984px)"
+-                             transform: "translateX(100.814px) translateY(-64.4334px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -318,12 +317,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "48.21804688893582%"
--                             top: "29.9405%"
-+                             left: "64.67308045705244%"
--                             left: "62.0332%"
-+                             transform: "translateX(242.89366806575026px) translateY(279.1593393916055px)"
--                             transform: "translateX(-259.826px) translateY(118.589px)"
++                             top: "41.91897341049078%"
+-                             top: "16.6751%"
++                             left: "28.720678608299053%"
+-                             left: "50.6022%"
++                             transform: "translateX(202.45600335136783px) translateY(25.299149291394485px)"
+-                             transform: "translateX(-203.36px) translateY(164.859px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -331,12 +330,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "46.83143448893469%"
--                             top: "74.9128%"
-+                             left: "46.174581124095226%"
--                             left: "11.7472%"
-+                             transform: "translateX(-265.8847808061836px) translateY(248.41831997640713px)"
--                             transform: "translateX(248.423px) translateY(244.057px)"
++                             top: "35.563700746484905%"
+-                             top: "58.546%"
++                             left: "12.279015099232527%"
+-                             left: "44.3875%"
++                             transform: "translateX(-205.55802583931495px) translateY(214.45438267876864px)"
+-                             transform: "translateX(-172.236px) translateY(318.172px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -344,30 +343,128 @@ It can also happen if the client has a browser extension installed which messes 
               ...
       ...
 
-[00:01:12.188] Browser WARN    Image with src "/profilepic.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:13.696] Browser WARN    Image with src "/profilepic.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:09:43.109] Server  LOG     ✓ Compiled in 201ms
-[00:11:37.621] Server  LOG     ✓ Compiled in 127ms
-[00:11:43.233] Server  LOG     ✓ Compiled in 112ms
-[00:11:46.784] Server  LOG     ✓ Compiled in 115ms
-[00:12:03.549] Server  LOG     ✓ Compiled in 143ms
-[00:12:06.497] Server  LOG     ✓ Compiled in 187ms
-[00:12:10.574] Server  LOG     ✓ Compiled in 130ms
-[00:12:12.747] Server  LOG     ✓ Compiled in 134ms
-[00:12:20.097] Server  LOG     ✓ Compiled in 110ms
-[00:12:48.423] Server  LOG     ✓ Compiled in 175ms
-[00:13:03.231] Server  LOG     ✓ Compiled in 121ms
-[00:13:15.959] Server  LOG     ✓ Compiled in 152ms
-[00:13:25.331] Server  LOG     ✓ Compiled in 149ms
-[00:18:11.905] Server  LOG     ✓ Compiled in 340ms
-[00:18:22.921] Server  LOG     ✓ Compiled in 107ms
-[00:18:26.312] Server  LOG     ✓ Compiled in 297ms
-[00:18:33.489] Server  LOG     ✓ Compiled in 273ms
-[00:18:42.506] Server  LOG     ✓ Compiled in 87ms
-[00:18:59.492] Server  LOG     ✓ Compiled in 113ms
-[00:19:13.072] Server  LOG     ✓ Compiled in 351ms
-[00:19:33.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:34.618] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:04:22.911] Server  LOG     ✓ Compiled in 1369ms
+[00:04:26.702] Server  LOG     ✓ Compiled in 93ms
+[00:04:28.970] Server  LOG     ✓ Compiled in 83ms
+[00:04:40.267] Server  LOG     ✓ Compiled in 144ms
+[00:05:03.802] Server  LOG     ✓ Compiled in 90ms
+[00:05:05.530] Server  LOG     ✓ Compiled in 130ms
+[00:05:06.779] Server  LOG     ✓ Compiled in 165ms
+[00:05:08.327] Server  LOG     ✓ Compiled in 225ms
+[00:09:48.818] Server  LOG     ✓ Compiled in 88ms
+[00:09:56.614] Server  LOG     ✓ Compiled in 93ms
+[00:09:57.607] Server  LOG     ✓ Compiled in 83ms
+[00:10:08.730] Server  LOG     ✓ Compiled in 147ms
+[00:10:09.819] Server  LOG     ✓ Compiled in 113ms
+[00:10:11.372] Server  LOG     ✓ Compiled in 123ms
+[00:10:15.022] Server  LOG     ✓ Compiled in 78ms
+[00:10:17.628] Server  LOG     ✓ Compiled in 83ms
+[00:10:29.751] Server  LOG     ✓ Compiled in 84ms
+[00:10:34.559] Server  LOG     ✓ Compiled in 140ms
+[00:10:35.279] Browser ERROR   ./app/components/Hero.tsx:118:22
+Parsing ecmascript source code failed
+  116 |             A <span className="text-yellow-500 font-semibold">Full-Stack Developer</span> Full-Stack Developer focused on developing responsive, scalable web applications.
+  117 |             <span className="text-yellow-500 font-semibold">Digital Marketing Specialist creating data-driven strategies and high-engagement content.
+> 118 |           </motion.p>
+      |                      ^
+> 119 |
+      | ^
+> 120 |           <motion.div
+      | ^^^^^^^^^^^
+  121 |             className="mt-8 flex gap-4 justify-center md:justify-start"
+  122 |             initial={{ opacity: 0, y: 20 }}
+  123 |             animate={{ opacity: 1, y: 0 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/components/Hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/Hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:10:42.633] Server  LOG     ✓ Compiled in 100ms
+[00:11:03.445] Server  LOG     ✓ Compiled in 370ms
+[00:11:09.791] Server  LOG     ✓ Compiled in 336ms
+[00:11:21.831] Server  LOG     ✓ Compiled in 502ms
+[00:13:33.889] Server  LOG     ✓ Compiled in 84ms
+[00:13:38.898] Server  LOG     ✓ Compiled in 123ms
+[00:13:49.360] Server  LOG     ✓ Compiled in 310ms
+[00:14:37.762] Server  LOG     ✓ Compiled in 148ms
+[00:15:09.231] Server  LOG     ✓ Compiled in 139ms
+[00:15:11.639] Server  LOG     ✓ Compiled in 84ms
+[00:15:40.129] Server  LOG     ✓ Compiled in 116ms
+[00:15:43.834] Server  LOG     ✓ Compiled in 104ms
+[00:15:44.284] Browser ERROR   ./app/components/Hero.tsx:118:22
+Parsing ecmascript source code failed
+  116 |             A <span className="text-yellow-500 font-semibold">Full-Stack Developer</span> specializing in building responsive, scalable web applications, and
+  117 |            <br>a <span className="text-yellow-500 font-semibold"> Marketing Specialist</span> specializing in data-driven marketing strategies and engaging content creation.
+> 118 |           </motion.p>
+      |                      ^
+> 119 |
+      | ^
+> 120 |           <motion.div
+      | ^^^^^^^^^^^
+  121 |             className="mt-8 flex gap-4 justify-center md:justify-start"
+  122 |             initial={{ opacity: 0, y: 20 }}
+  123 |             animate={{ opacity: 1, y: 0 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/components/Hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/Hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:54.048] Browser ERROR   uncaughtError: Error: br is a void element tag and must neither have `children` nor use `dangerouslySetInnerHTML`.
+[00:16:07.665] Server  LOG     ✓ Compiled in 176ms
+[00:16:08.270] Browser ERROR   ./app/components/Hero.tsx:118:22
+Parsing ecmascript source code failed
+  116 |             A <span className="text-yellow-500 font-semibold">Full-Stack Developer</span> specializing in building responsive, scalable web applications, and
+  117 |            <br>a <span className="text-yellow-500 font-semibold"> Marketing Specialist</span> specializing in data-driven marketing strategies and engaging content creation.
+> 118 |           </motion.p>
+      |                      ^
+> 119 |
+      | ^
+> 120 |           <motion.div
+      | ^^^^^^^^^^^
+  121 |             className="mt-8 flex gap-4 justify-center md:justify-start"
+  122 |             initial={{ opacity: 0, y: 20 }}
+  123 |             animate={{ opacity: 1, y: 0 }}
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./app/components/Hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/Hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:16:10.218] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:10.241] Server  LOG     ✓ Compiled in 122ms
+[00:16:11.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:13.276] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -395,12 +492,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "38.181362506494274%"
--                             top: "17.6339%"
-+                             left: "45.37940715408811%"
--                             left: "83.7812%"
-+                             transform: "translateX(-353.4473285305369px) translateY(206.58829152908038px)"
--                             transform: "translateX(-146.196px) translateY(-17.3313px)"
++                             top: "55.79728705843926%"
+-                             top: "86.5608%"
++                             left: "15.494491968595458%"
+-                             left: "72.9025%"
++                             transform: "translateX(310.44840087880857px) translateY(-31.620068858975344px)"
+-                             transform: "translateX(242.061px) translateY(168.547px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -408,12 +505,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "74.3925712843276%"
--                             top: "39.9899%"
-+                             left: "66.74303873968488%"
--                             left: "97.6111%"
-+                             transform: "translateX(230.84355869583612px) translateY(162.72665716508544px)"
--                             transform: "translateX(-90.7089px) translateY(-49.5px)"
++                             top: "14.194790652555078%"
+-                             top: "72.3995%"
++                             left: "73.61472554962545%"
+-                             left: "38.3496%"
++                             transform: "translateX(301.2878683729182px) translateY(149.5375309578974px)"
+-                             transform: "translateX(-49.8156px) translateY(-8.48324px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -421,12 +518,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "61.3916817838851%"
--                             top: "78.6461%"
-+                             left: "2.37578880220245%"
--                             left: "26.9557%"
-+                             transform: "translateX(-399.46965416999143px) translateY(-210.85094039276248px)"
--                             transform: "translateX(333.978px) translateY(63.5043px)"
++                             top: "18.464036262558658%"
+-                             top: "96.7438%"
++                             left: "37.86790479565932%"
+-                             left: "23.02%"
++                             transform: "translateX(253.70272131137267px) translateY(236.78831339199735px)"
+-                             transform: "translateX(-153.54px) translateY(255.407px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -434,12 +531,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "76.16595226566987%"
--                             top: "74.6927%"
-+                             left: "56.87037477034773%"
--                             left: "87.1305%"
-+                             transform: "translateX(63.2131492468784px) translateY(-43.30979838294962px)"
--                             transform: "translateX(196.834px) translateY(161.824px)"
++                             top: "73.1477626945661%"
+-                             top: "37.4907%"
++                             left: "90.50531141872081%"
+-                             left: "58.113%"
++                             transform: "translateX(-318.1236187063712px) translateY(-236.87711357831796px)"
+-                             transform: "translateX(-270.311px) translateY(-181.106px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -447,12 +544,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "59.090292422081106%"
--                             top: "57.2452%"
-+                             left: "92.6696102097671%"
--                             left: "67.1137%"
-+                             transform: "translateX(-141.5750012158246px) translateY(293.91683847481863px)"
--                             transform: "translateX(153.085px) translateY(245.368px)"
++                             top: "35.01048482446202%"
+-                             top: "7.11849%"
++                             left: "21.213967767220865%"
+-                             left: "31.6641%"
++                             transform: "translateX(31.20315724928639px) translateY(-292.89102873941545px)"
+-                             transform: "translateX(345.359px) translateY(94.474px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -460,12 +557,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "12.400420259132805%"
--                             top: "52.2284%"
-+                             left: "42.94817010673049%"
--                             left: "54.5345%"
-+                             transform: "translateX(-232.53756673093403px) translateY(85.76022564780294px)"
--                             transform: "translateX(310.608px) translateY(8.69363px)"
++                             top: "40.745795259985606%"
+-                             top: "50.3116%"
++                             left: "30.48023966804535%"
+-                             left: "80.5946%"
++                             transform: "translateX(-36.974540533683864px) translateY(-211.84065124915466px)"
+-                             transform: "translateX(39.3157px) translateY(-125.144px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -473,12 +570,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "45.41355497813678%"
--                             top: "5.43396%"
-+                             left: "52.47452573849307%"
--                             left: "68.1183%"
-+                             transform: "translateX(-6.1115562345809735px) translateY(-64.04337871503782px)"
--                             transform: "translateX(383.121px) translateY(257.239px)"
++                             top: "8.71535484407666%"
+-                             top: "19.8078%"
++                             left: "26.297772197670742%"
+-                             left: "53.1509%"
++                             transform: "translateX(-197.6749759025697px) translateY(-276.869481240799px)"
+-                             transform: "translateX(-32.7945px) translateY(-70.0387px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -486,12 +583,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "99.11385554156142%"
--                             top: "95.2287%"
-+                             left: "12.602725315747932%"
--                             left: "27.9137%"
-+                             transform: "translateX(340.5760919333554px) translateY(269.84092318097396px)"
--                             transform: "translateX(297.824px) translateY(178.38px)"
++                             top: "53.49437116932359%"
+-                             top: "19.0584%"
++                             left: "87.55558437932181%"
+-                             left: "93.7029%"
++                             transform: "translateX(-72.52957978100659px) translateY(-93.43391209890845px)"
+-                             transform: "translateX(-63.6817px) translateY(-180.726px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -499,12 +596,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "39.56607143104137%"
--                             top: "63.3814%"
-+                             left: "39.91498034211176%"
--                             left: "77.1055%"
-+                             transform: "translateX(-9.140357940247156px) translateY(166.49219458804214px)"
--                             transform: "translateX(-236.043px) translateY(1.91924px)"
++                             top: "7.430739039848266%"
+-                             top: "20.4493%"
++                             left: "46.705687198499646%"
+-                             left: "37.2451%"
++                             transform: "translateX(-236.51100298878998px) translateY(58.24150518716908px)"
+-                             transform: "translateX(125.19px) translateY(-189.767px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -512,12 +609,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "8.072672622353338%"
--                             top: "12.2321%"
-+                             left: "28.76828999749028%"
--                             left: "71.4744%"
-+                             transform: "translateX(158.00815301973194px) translateY(42.10358416866626px)"
--                             transform: "translateX(-360.106px) translateY(225.265px)"
++                             top: "12.295586892761957%"
+-                             top: "68.0361%"
++                             left: "14.597007145445605%"
+-                             left: "25.8212%"
++                             transform: "translateX(259.67688059710576px) translateY(-217.99616428323196px)"
+-                             transform: "translateX(-389.665px) translateY(-68.5555px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -525,12 +622,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "12.789658270070703%"
--                             top: "87.0231%"
-+                             left: "38.52114753667202%"
--                             left: "76.6955%"
-+                             transform: "translateX(371.58839602183536px) translateY(-101.50246766404533px)"
--                             transform: "translateX(-378.251px) translateY(-114.344px)"
++                             top: "23.911572386829473%"
+-                             top: "53.3961%"
++                             left: "5.009204772519182%"
+-                             left: "21.6273%"
++                             transform: "translateX(227.22475125046253px) translateY(245.30577015781853px)"
+-                             transform: "translateX(139.571px) translateY(-270.358px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -546,12 +643,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "83.89740205949533%"
--                             top: "67.4341%"
-+                             left: "93.97868002072116%"
--                             left: "80.5426%"
-+                             transform: "translateX(-399.1384676518094px) translateY(309.40017174420154px)"
--                             transform: "translateX(218.625px) translateY(-312.745px)"
++                             top: "22.37117190095289%"
+-                             top: "43.4193%"
++                             left: "4.865077052772149%"
+-                             left: "45.79%"
++                             transform: "translateX(206.55233421840046px) translateY(-281.94893835483975px)"
+-                             transform: "translateX(197.208px) translateY(-316.165px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -559,12 +656,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "30.5785230507555%"
--                             top: "30.9949%"
-+                             left: "7.333855481244478%"
--                             left: "90.1179%"
-+                             transform: "translateX(310.596070279739px) translateY(293.8465909185119px)"
--                             transform: "translateX(-173.187px) translateY(4.53053px)"
++                             top: "68.1821827751088%"
+-                             top: "67.3725%"
++                             left: "14.20548037745304%"
+-                             left: "8.14477%"
++                             transform: "translateX(-326.5785441968524px) translateY(-327.7810022432828px)"
+-                             transform: "translateX(17.3113px) translateY(198.119px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -572,12 +669,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "66.52083417372882%"
--                             top: "28.1254%"
-+                             left: "71.44763739358146%"
--                             left: "82.5979%"
-+                             transform: "translateX(49.420814335347075px) translateY(309.2403865259572px)"
--                             transform: "translateX(-338.494px) translateY(205.442px)"
++                             top: "27.071456219120083%"
+-                             top: "18.0995%"
++                             left: "93.45005322198614%"
+-                             left: "30.6197%"
++                             transform: "translateX(159.48478997034147px) translateY(291.5671644243163px)"
+-                             transform: "translateX(267.225px) translateY(-265.961px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -585,12 +682,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "6.974179692984405%"
--                             top: "28.5426%"
-+                             left: "9.05837905128558%"
--                             left: "31.6006%"
-+                             transform: "translateX(-384.8192238235365px) translateY(223.77323737677784px)"
--                             transform: "translateX(-31.3993px) translateY(-285.588px)"
++                             top: "18.160858199571507%"
+-                             top: "86.433%"
++                             left: "19.067844166563%"
+-                             left: "74.054%"
++                             transform: "translateX(-274.2252803624107px) translateY(-207.61222972650214px)"
+-                             transform: "translateX(71.3033px) translateY(-195.973px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -598,12 +695,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "39.281329821964164%"
--                             top: "18.5528%"
-+                             left: "47.782981619563934%"
--                             left: "31.5154%"
-+                             transform: "translateX(154.72721073511013px) translateY(143.27860083862333px)"
--                             transform: "translateX(166.545px) translateY(-368.818px)"
++                             top: "8.796890969565773%"
+-                             top: "21.2291%"
++                             left: "3.481194030453072%"
+-                             left: "57.4373%"
++                             transform: "translateX(182.53972829661825px) translateY(340.70154832902347px)"
+-                             transform: "translateX(45.2799px) translateY(-39.8034px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -611,12 +708,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "23.427454521220483%"
--                             top: "9.11749%"
-+                             left: "66.59683926121144%"
--                             left: "38.6994%"
-+                             transform: "translateX(-359.67292516138656px) translateY(202.31873463984516px)"
--                             transform: "translateX(102.486px) translateY(-393.592px)"
++                             top: "82.02750239787945%"
+-                             top: "1.08979%"
++                             left: "61.4883302453127%"
+-                             left: "50.19%"
++                             transform: "translateX(306.20316876143465px) translateY(-187.19149942982912px)"
+-                             transform: "translateX(364.075px) translateY(388.17px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -632,12 +729,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "5.5483844955220185%"
--                             top: "61.6829%"
-+                             left: "77.9920334210096%"
--                             left: "11.005%"
-+                             transform: "translateX(-368.30678713982604px) translateY(308.3368597606434px)"
--                             transform: "translateX(-249.196px) translateY(237.597px)"
++                             top: "10.006777066116923%"
+-                             top: "73.8356%"
++                             left: "54.393556129039666%"
+-                             left: "60.0563%"
++                             transform: "translateX(221.92527877553653px) translateY(-21.65926273950231px)"
+-                             transform: "translateX(120.982px) translateY(-352.613px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -645,12 +742,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "67.87538696456502%"
--                             top: "56.0953%"
-+                             left: "28.314767551812036%"
--                             left: "26.868%"
-+                             transform: "translateX(-330.53747836321236px) translateY(-187.35723254183156px)"
--                             transform: "translateX(3.04251px) translateY(119.296px)"
++                             top: "82.27863913272317%"
+-                             top: "57.6396%"
++                             left: "58.599376174411546%"
+-                             left: "67.8069%"
++                             transform: "translateX(-110.80513630665212px) translateY(-23.720404272441783px)"
+-                             transform: "translateX(316.493px) translateY(178.292px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -658,12 +755,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "81.33690586987716%"
--                             top: "13.9467%"
-+                             left: "88.71721093372281%"
--                             left: "16.3559%"
-+                             transform: "translateX(-386.8570784151462px) translateY(-337.0403619784397px)"
--                             transform: "translateX(141.561px) translateY(242.498px)"
++                             top: "75.06975721985985%"
+-                             top: "86.6345%"
++                             left: "95.87101929005942%"
+-                             left: "52.0172%"
++                             transform: "translateX(-202.79354872515336px) translateY(27.32702599787791px)"
+-                             transform: "translateX(-62.2408px) translateY(250.531px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -671,12 +768,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "86.2692574200626%"
--                             top: "23.8072%"
-+                             left: "55.45320817587888%"
--                             left: "56.4189%"
-+                             transform: "translateX(239.67836273115506px) translateY(-16.64482993975281px)"
--                             transform: "translateX(-55.2954px) translateY(-29.2785px)"
++                             top: "89.74333727133941%"
+-                             top: "45.5683%"
++                             left: "88.81854812570108%"
+-                             left: "77.2572%"
++                             transform: "translateX(-53.25701622161631px) translateY(-32.271577352209135px)"
+-                             transform: "translateX(139.965px) translateY(-56.0714px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -684,12 +781,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "39.51835448255533%"
--                             top: "77.6351%"
-+                             left: "88.88227092694217%"
--                             left: "52.3689%"
-+                             transform: "translateX(-273.93736514295216px) translateY(268.10033453039216px)"
--                             transform: "translateX(-245.823px) translateY(121.104px)"
++                             top: "50.421797399718216%"
+-                             top: "7.71543%"
++                             left: "72.41655265923848%"
+-                             left: "12.2311%"
++                             transform: "translateX(-153.63469671656605px) translateY(-12.560838270584384px)"
+-                             transform: "translateX(130.39px) translateY(276.167px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -697,12 +794,12 @@ It can also happen if the client has a browser extension installed which messes 
                           <div
                             className="absolute opacity-60"
                             style={{
-+                             top: "11.745783386778108%"
--                             top: "67.9754%"
-+                             left: "61.28151815397553%"
--                             left: "44.7215%"
-+                             transform: "translateX(313.22942602617934px) translateY(-233.76722801560783px)"
--                             transform: "translateX(-230.987px) translateY(-177.324px)"
++                             top: "38.68325622107989%"
+-                             top: "31.0881%"
++                             left: "94.9605929188895%"
+-                             left: "42.8466%"
++                             transform: "translateX(-185.00690293351062px) translateY(224.1284595110601px)"
+-                             transform: "translateX(367.727px) translateY(293.534px)"
                             }}
                             ref={function useMotionRef.useCallback}
                           >
@@ -710,7 +807,353 @@ It can also happen if the client has a browser extension installed which messes 
               ...
       ...
 
-[00:21:08.830] Server  LOG     ✓ Compiled in 86ms
-[00:21:21.505] Server  LOG     ✓ Compiled in 125ms
-[00:21:22.944] Server  LOG     ✓ Compiled in 135ms
-[00:21:33.170] Server  LOG     ✓ Compiled in 84ms
+[00:17:15.699] Server  LOG     ✓ Compiled in 94ms
+[00:17:20.377] Server  LOG     ✓ Compiled in 171ms
+[00:17:21.905] Server  LOG     ✓ Compiled in 319ms
+[00:18:23.236] Server  LOG     ✓ Compiled in 361ms
+[00:18:43.159] Server  LOG     ✓ Compiled in 99ms
+[00:18:45.609] Server  LOG     ✓ Compiled in 552ms
+[00:21:48.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:49.212] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+      <SegmentViewNode type="page" pagePath="page.tsx">
+        <SegmentTrieNode>
+        <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+          <Home params={Promise} searchParams={Promise}>
+            <main className="min-h-scre...">
+              <motion.div initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.6}}>
+                <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <Hero>
+                    <section className="relative w...">
+                      <div className="block abso...">
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "59.06679661647091%"
+-                             top: "71.586%"
++                             left: "67.24275294102885%"
+-                             left: "55.9027%"
++                             transform: "translateX(-165.50842907952693px) translateY(-82.93030919484431px)"
+-                             transform: "translateX(-5.02097px) translateY(79.2088px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "4.6807822920651665%"
+-                             top: "21.9245%"
++                             left: "20.005097834007145%"
+-                             left: "75.0266%"
++                             transform: "translateX(322.99033918256475px) translateY(-152.29790108216355px)"
+-                             transform: "translateX(362.953px) translateY(245.829px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "4.080649247320256%"
+-                             top: "11.6781%"
++                             left: "30.278287418304718%"
+-                             left: "92.646%"
++                             transform: "translateX(-356.1865007004932px) translateY(236.81902709491806px)"
+-                             transform: "translateX(86.5786px) translateY(245.808px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "92.6290570047499%"
+-                             top: "3.88812%"
++                             left: "88.48898852744554%"
+-                             left: "88.927%"
++                             transform: "translateX(-171.21200976771337px) translateY(248.34885696777906px)"
+-                             transform: "translateX(-74.1564px) translateY(-254.178px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "4.083933982393029%"
+-                             top: "92.9878%"
++                             left: "85.54471967085236%"
+-                             left: "65.4943%"
++                             transform: "translateX(-68.94212175609005px) translateY(-8.485076847888934px)"
+-                             transform: "translateX(32.1948px) translateY(160.643px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "20.746684144911388%"
+-                             top: "58.8392%"
++                             left: "3.3035050153035095%"
+-                             left: "41.0009%"
++                             transform: "translateX(-342.65730299562176px) translateY(85.971340369389px)"
+-                             transform: "translateX(-362.518px) translateY(-286.575px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "62.36316284588956%"
+-                             top: "94.716%"
++                             left: "48.710086299670884%"
+-                             left: "22.1933%"
++                             transform: "translateX(300.3769825293165px) translateY(101.49097468793536px)"
+-                             transform: "translateX(300.392px) translateY(-31.0005px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "60.61769214990726%"
+-                             top: "58.9733%"
++                             left: "92.7927158017175%"
+-                             left: "56.3431%"
++                             transform: "translateX(-182.8343792153774px) translateY(229.725915619052px)"
+-                             transform: "translateX(-387.661px) translateY(-86.9481px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "25.352397409407402%"
+-                             top: "24.0048%"
++                             left: "5.340076783937587%"
+-                             left: "92.1927%"
++                             transform: "translateX(243.88478853064885px) translateY(208.58606757189364px)"
+-                             transform: "translateX(27.8184px) translateY(-235.849px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "75.06533837853844%"
+-                             top: "6.25418%"
++                             left: "58.3196320709575%"
+-                             left: "16.2203%"
++                             transform: "translateX(-175.51608930931283px) translateY(186.68416884057183px)"
+-                             transform: "translateX(-327.203px) translateY(64.7881px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "84.82145372342238%"
+-                             top: "50.1992%"
++                             left: "16.864664578987664%"
+-                             left: "69.8034%"
++                             transform: "translateX(272.5297927918309px) translateY(40.66560103938673px)"
+-                             transform: "translateX(224.219px) translateY(-117.256px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                      ...
+              <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <Experience>
+                    <section id="experience" className="relative o...">
+                      <motion.div>
+                      <motion.div>
+                      <div className="block z-30...">
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "12.376055426715615%"
+-                             top: "75.7732%"
++                             left: "4.081723821671557%"
+-                             left: "59.4311%"
++                             transform: "translateX(205.5578378577842px) translateY(354.40834411588946px)"
+-                             transform: "translateX(-325.199px) translateY(92.5942px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "97.76876961979858%"
+-                             top: "86.1829%"
++                             left: "66.51521577408577%"
+-                             left: "80.189%"
++                             transform: "translateX(265.3270679325067px) translateY(233.7989806494187px)"
+-                             transform: "translateX(52.498px) translateY(-106.959px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "92.38309519005806%"
+-                             top: "89.0127%"
++                             left: "71.98215815525714%"
+-                             left: "46.0916%"
++                             transform: "translateX(15.854811425005892px) translateY(305.7930018501087px)"
+-                             transform: "translateX(-379.717px) translateY(-164.119px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "20.95936434325839%"
+-                             top: "25.3552%"
++                             left: "63.376164100843845%"
+-                             left: "33.3459%"
++                             transform: "translateX(143.9735346657867px) translateY(69.39483861338005px)"
+-                             transform: "translateX(325.976px) translateY(-339.552px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "67.10007309868541%"
+-                             top: "38.7203%"
++                             left: "58.351514073754586%"
+-                             left: "24.8516%"
++                             transform: "translateX(-235.8745777677097px) translateY(259.8638680367782px)"
+-                             transform: "translateX(-71.6326px) translateY(165.384px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "83.27629194237441%"
+-                             top: "14.9884%"
++                             left: "88.0501126893587%"
+-                             left: "11.5969%"
++                             transform: "translateX(89.76690662003523px) translateY(-178.28743440008364px)"
+-                             transform: "translateX(-88.4582px) translateY(327.419px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                      ...
+              <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <Education>
+                    <section id="education" className="relative o...">
+                      <motion.div>
+                      <motion.div>
+                      <div className="block z-30...">
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "18.372631116149062%"
+-                             top: "0.271708%"
++                             left: "28.6426542896427%"
+-                             left: "92.4728%"
++                             transform: "translateX(162.9401691090378px) translateY(161.29304623418545px)"
+-                             transform: "translateX(-281.098px) translateY(-121.338px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "52.27880658493061%"
+-                             top: "84.4077%"
++                             left: "93.5224698735879%"
+-                             left: "45.1139%"
++                             transform: "translateX(196.8014406746439px) translateY(-161.7439100567248px)"
+-                             transform: "translateX(67.6205px) translateY(247.692px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "28.348568814872866%"
+-                             top: "99.7448%"
++                             left: "26.92749570329307%"
+-                             left: "62.5345%"
++                             transform: "translateX(247.57553159108px) translateY(151.53411061779434px)"
+-                             transform: "translateX(-155.722px) translateY(-346.361px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "98.87197444929967%"
+-                             top: "70.8915%"
++                             left: "29.039861389560816%"
+-                             left: "18.7763%"
++                             transform: "translateX(52.27865712073719px) translateY(-322.15670891800875px)"
+-                             transform: "translateX(46.9298px) translateY(101.334px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "47.72857183253608%"
+-                             top: "11.2691%"
++                             left: "56.97958467340764%"
+-                             left: "84.6979%"
++                             transform: "translateX(-300.63111160607514px) translateY(-177.9527132897532px)"
+-                             transform: "translateX(309.687px) translateY(305.747px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "41.26630203293746%"
+-                             top: "93.6907%"
++                             left: "24.12441115284748%"
+-                             left: "30.8082%"
++                             transform: "translateX(-264.50599857049065px) translateY(334.5983525665838px)"
+-                             transform: "translateX(-345.131px) translateY(78.6167px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                      ...
+              ...
+      ...
+

@@ -287,9 +287,24 @@ const Hero = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Hero.tsx",
                                         lineNumber: 116,
-                                        columnNumber: 15
+                                        columnNumber: 14
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    " skilled in crafting responsive web apps, creative designing, and data-driven digital marketing."
+                                    " specializing in building responsive, scalable web applications, ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/app/components/Hero.tsx",
+                                        lineNumber: 116,
+                                        columnNumber: 154
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    "and a ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-green-500 font-semibold",
+                                        children: "Marketing Specialist"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/Hero.tsx",
+                                        lineNumber: 117,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    " specializing in data-driven marketing strategies and engaging content creation."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Hero.tsx",
@@ -313,16 +328,16 @@ const Hero = ()=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "/Rushi-Suthar-Resume.pdf",
                                     download: true,
-                                    className: "px-6 py-3 rounded-xl bg-yellow-600 text-white shadow-lg hover:bg-red-600 transition font-medium",
+                                    className: "px-6 py-3 rounded-xl bg-yellow-600 text-white shadow-lg hover:bg-green-600 transition font-medium",
                                     children: "Download My Resume"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Hero.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 126,
                                     columnNumber: 11
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Hero.tsx",
-                                lineNumber: 119,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -350,7 +365,7 @@ const Hero = ()=>{
                                 className: "absolute w-60 h-60 md:w-72 md:h-72 rounded-full bg-gradient-to-tr from-purple-400 to-red-400 blur-2xl opacity-40"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Hero.tsx",
-                                lineNumber: 138,
+                                lineNumber: 139,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -363,18 +378,18 @@ const Hero = ()=>{
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Hero.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 143,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Hero.tsx",
-                                lineNumber: 141,
+                                lineNumber: 142,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Hero.tsx",
-                        lineNumber: 131,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -411,12 +426,12 @@ const Hero = ()=>{
                             d: "M19 9l-7 7-7-7"
                         }, void 0, false, {
                             fileName: "[project]/app/components/Hero.tsx",
-                            lineNumber: 167,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/app/components/Hero.tsx",
-                        lineNumber: 159,
+                        lineNumber: 160,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -424,13 +439,13 @@ const Hero = ()=>{
                         children: "Scroll down to explore more"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Hero.tsx",
-                        lineNumber: 169,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Hero.tsx",
-                lineNumber: 154,
+                lineNumber: 155,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

@@ -113,7 +113,8 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            A <span className="text-yellow-500 font-semibold">Full-Stack Developer</span> skilled in crafting responsive web apps, creative designing, and data-driven digital marketing.
+           A <span className="text-yellow-500 font-semibold">Full-Stack Developer</span> specializing in building responsive, scalable web applications, <br />
+          and a <span className="text-green-500 font-semibold">Marketing Specialist</span> specializing in data-driven marketing strategies and engaging content creation.
           </motion.p>
 
           <motion.div
@@ -122,7 +123,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-          <a href="/Rushi-Suthar-Resume.pdf" download className="px-6 py-3 rounded-xl bg-yellow-600 text-white shadow-lg hover:bg-red-600 transition font-medium">
+          <a href="/Rushi-Suthar-Resume.pdf" download className="px-6 py-3 rounded-xl bg-yellow-600 text-white shadow-lg hover:bg-green-600 transition font-medium">
             Download My Resume</a>
           </motion.div>
         </div>
