@@ -63,7 +63,7 @@ const experiences = [
     icon: <FaBriefcase className="text-red-500 text-xl" />,
   },
   {
-    title: "Digital Marketing Intern",
+    title: "SEO Trainee",
     company: "21Twelve Interactive LLP",
     date: "May 2023 - Nov 2023",
     description: [
