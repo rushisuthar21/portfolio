@@ -113,7 +113,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-           A <span className="text-yellow-500 font-semibold">Jr. Full-Stack Developer</span> specializing in building responsive, scalable web applications.<br />
+          A <span className="text-yellow-500 font-semibold">Jr. Full-Stack Developer</span> passionate about clean code, responsive design, and solving problems I definitely didn’t create.<br />
           </motion.p>
 
           <motion.div
