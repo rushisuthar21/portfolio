@@ -34,7 +34,7 @@ const educations = [
   },
   {
     title: "Bachelor of Science in Information Technology",
-    company: "GLS University",
+    company: "Gujarat Law Society (GLS University)",
     date: "Jun 2019 - Mar 2022",
     description: [
       "🎓 Completed Bachelor of Science in Information Technology with a strong foundation in computer science fundamentals.",

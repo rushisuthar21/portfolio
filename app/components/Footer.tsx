@@ -8,7 +8,7 @@ export default function Footer() {
       "
     >
       <p className="text-sm sm:text-base">
-        Made by <span className="font-semibold">Rushi Suthar</span> | 2025
+        Made by <span className="font-semibold">Rushi Suthar</span> | 2026
       </p>
     </footer>
   );

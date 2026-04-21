@@ -113,8 +113,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-           A <span className="text-yellow-500 font-semibold">Full-Stack Developer</span> specializing in building responsive, scalable web applications, <br />
-          and a <span className="text-green-500 font-semibold">Marketing Specialist</span> specializing in data-driven marketing strategies and engaging content creation.
+           A <span className="text-yellow-500 font-semibold">Jr. Full-Stack Developer</span> specializing in building responsive, scalable web applications.<br />
           </motion.p>
 
           <motion.div
