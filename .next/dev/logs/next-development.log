@@ -1,1 +1,347 @@
-[00:00:01.833] Server  LOG     ✓ Ready in 1248ms
+[00:00:03.120] Server  LOG     ✓ Ready in 2.2s
+[00:00:09.621] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.746] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+      <SegmentViewNode type="page" pagePath="page.tsx">
+        <SegmentTrieNode>
+        <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+          <Home params={Promise} searchParams={Promise}>
+            <main className="min-h-scre...">
+              <motion.div initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.6}}>
+                <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <Hero>
+                    <section className="relative w...">
+                      <div className="block abso...">
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "41.93240182241521%"
+-                             top: "37.826%"
++                             left: "74.66657018400727%"
+-                             left: "12.9223%"
++                             transform: "translateX(300.8945734535479px) translateY(-295.8327710392953px)"
+-                             transform: "translateX(91.6762px) translateY(-32.5091px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "25.868334290643848%"
+-                             top: "5.78012%"
++                             left: "5.771893668767724%"
+-                             left: "58.2459%"
++                             transform: "translateX(-291.1881271649362px) translateY(-73.06652160659536px)"
+-                             transform: "translateX(174.541px) translateY(99.175px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "98.19723816994748%"
+-                             top: "98.801%"
++                             left: "28.518491012017243%"
+-                             left: "3.3475%"
++                             transform: "translateX(-141.82629941510424px) translateY(-284.78413151651px)"
+-                             transform: "translateX(115.681px) translateY(281.338px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "2.0430614523019197%"
+-                             top: "24.961%"
++                             left: "12.828449069594006%"
+-                             left: "19.6006%"
++                             transform: "translateX(-309.83646408313405px) translateY(-189.12846843839122px)"
+-                             transform: "translateX(305.546px) translateY(-257.497px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "24.236596929758882%"
+-                             top: "98.4561%"
++                             left: "20.65595257377504%"
+-                             left: "34.4991%"
++                             transform: "translateX(37.21278373234111px) translateY(180.89995243593933px)"
+-                             transform: "translateX(13.2639px) translateY(-71.5461px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "17.3446338706681%"
+-                             top: "65.3601%"
++                             left: "43.8595869599166%"
+-                             left: "85.1933%"
++                             transform: "translateX(195.5936218577839px) translateY(37.72251854105946px)"
+-                             transform: "translateX(-188.404px) translateY(21.9954px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "78.1753100520224%"
+-                             top: "7.28416%"
++                             left: "18.01925766876146%"
+-                             left: "6.06799%"
++                             transform: "translateX(165.31376281425423px) translateY(-103.57524899587534px)"
+-                             transform: "translateX(159.529px) translateY(-84.3982px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "17.295662677788204%"
+-                             top: "87.2839%"
++                             left: "60.67900938357141%"
+-                             left: "50.9915%"
++                             transform: "translateX(-345.84510798419393px) translateY(-68.0880903501122px)"
+-                             transform: "translateX(-277.669px) translateY(185.279px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "80.18156778232152%"
+-                             top: "46.4105%"
++                             left: "88.7121578970398%"
+-                             left: "16.5056%"
++                             transform: "translateX(-374.9817226322304px) translateY(-3.399749626832943px)"
+-                             transform: "translateX(238.259px) translateY(-39.8677px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "24.808967793701274%"
+-                             top: "81.8702%"
++                             left: "6.929197046051083%"
+-                             left: "1.40418%"
++                             transform: "translateX(387.7769610845111px) translateY(-182.9039166050738px)"
+-                             transform: "translateX(76.7966px) translateY(-48.5255px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div className="absolute o..." initial={{...}} animate={{x:[...],y:[...]}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "7.519427971821202%"
+-                             top: "52.2297%"
++                             left: "66.07715472714936%"
+-                             left: "1.7388%"
++                             transform: "translateX(-394.64161973908574px) translateY(142.70190122590145px)"
+-                             transform: "translateX(175.663px) translateY(-228.422px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                      ...
+              <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <Experience>
+                    <section id="experience" className="relative o...">
+                      <motion.div>
+                      <motion.div>
+                      <div className="block z-30...">
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "33.49003581514579%"
+-                             top: "62.5812%"
++                             left: "56.84032456438989%"
+-                             left: "56.6412%"
++                             transform: "translateX(-221.51410235296743px) translateY(-374.7822828568728px)"
+-                             transform: "translateX(-205.397px) translateY(362.544px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "40.73185129260656%"
+-                             top: "35.1125%"
++                             left: "19.60881040324378%"
+-                             left: "70.8593%"
++                             transform: "translateX(289.9185549457934px) translateY(-117.41122647364585px)"
+-                             transform: "translateX(-385.973px) translateY(203.548px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "57.15813315392511%"
+-                             top: "92.4318%"
++                             left: "49.38631385333535%"
+-                             left: "34.8124%"
++                             transform: "translateX(-259.4035281087553px) translateY(161.19343234739517px)"
+-                             transform: "translateX(186.354px) translateY(-390.68px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "78.02727928394671%"
+-                             top: "23.8658%"
++                             left: "79.31321045471663%"
+-                             left: "15.0553%"
++                             transform: "translateX(104.26581305342967px) translateY(372.92947045674975px)"
+-                             transform: "translateX(191.7px) translateY(120.22px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "80.01268889816808%"
+-                             top: "34.6257%"
++                             left: "85.38873983332108%"
+-                             left: "16.6956%"
++                             transform: "translateX(-279.71800610869843px) translateY(243.7750296890148px)"
+-                             transform: "translateX(335.676px) translateY(67.9792px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "3.504454259860623%"
+-                             top: "90.3538%"
++                             left: "52.96182641151119%"
+-                             left: "28.7611%"
++                             transform: "translateX(59.14015661898907px) translateY(390.89076415623254px)"
+-                             transform: "translateX(-264.267px) translateY(-379.858px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                      ...
+              <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{once:true, ...}} ...>
+                <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <Education>
+                    <section id="education" className="relative o...">
+                      <motion.div>
+                      <motion.div>
+                      <div className="block z-30...">
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "75.52292451011819%"
+-                             top: "77.9664%"
++                             left: "99.37203896967387%"
+-                             left: "43.528%"
++                             transform: "translateX(-252.42228367210328px) translateY(-228.07679335434514px)"
+-                             transform: "translateX(-344.92px) translateY(327.628px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "24.67308350873989%"
+-                             top: "78.9772%"
++                             left: "47.45102370731218%"
+-                             left: "33.6995%"
++                             transform: "translateX(263.03362584899344px) translateY(354.4372482870875px)"
+-                             transform: "translateX(162.76px) translateY(-44.5376px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "35.03481179686463%"
+-                             top: "66.5768%"
++                             left: "84.02778045101745%"
+-                             left: "24.0929%"
++                             transform: "translateX(-68.31724043688939px) translateY(-241.2624591535641px)"
+-                             transform: "translateX(72.4066px) translateY(349.701px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "90.23273071562919%"
+-                             top: "68.2912%"
++                             left: "89.02555830556757%"
+-                             left: "7.85203%"
++                             transform: "translateX(133.82532760907213px) translateY(-90.85764318945098px)"
+-                             transform: "translateX(294.014px) translateY(-287.423px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "39.30013597991439%"
+-                             top: "55.1828%"
++                             left: "63.10992958744068%"
+-                             left: "49.6888%"
++                             transform: "translateX(-111.55782905862281px) translateY(-29.508685563579547px)"
+-                             transform: "translateX(-123.134px) translateY(75.985px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                        <motion.div initial={{...}} animate={{x:[...],y:[...]}} transition={{duration:12, ...}} ...>
+                          <div
+                            className="absolute opacity-60"
+                            style={{
++                             top: "52.602032547345736%"
+-                             top: "94.743%"
++                             left: "84.72405595398426%"
+-                             left: "43.866%"
++                             transform: "translateX(399.92926157051704px) translateY(-157.94495903696594px)"
+-                             transform: "translateX(-253.91px) translateY(377.313px)"
+                            }}
+                            ref={function useMotionRef.useCallback}
+                          >
+                      ...
+              ...
+      ...
+
+[00:00:12.341] Browser WARN    Image with src "/profilepic.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
