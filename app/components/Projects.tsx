@@ -6,11 +6,10 @@ import { useEffect, useState } from "react";
 /* ---------------- SLIDER IMAGES ---------------- */
 const ikeaImages = [
   "/1.png", "/2.png", "/3.png", "/4.png", "/5.png", "/6.png", "/7.png"];
-const sunriseImages = [
+  const sunriseImages = [
   "/10.png", "/11.png", "/12.png", "/13.png", "/10.png", "/11.png", "/12.png" ];
 const shipImages = [
   "/21.png", "/22.png", "/23.png", "/24.png", "/25.png", "/21.png", "/22.png"];
-const aidocImages = ["/31.png", "/32.png"];
 
 /* ---------------- PROJECTS DATA ---------------- */
 const projects = [
@@ -29,7 +28,7 @@ const projects = [
     title: "AI Document Q&A Chatbot",
     description:
       "An AI-powered chatbot that allows users to upload documents and ask questions directly from their content. The system leverages Hugging Face APIs and context-based prompting to context-aware responses based on the uploaded files.",
-    images: aidocImages,
+    images: ["/31.png", "/32.png"],
     githubLink: "https://github.com/rushisuthar21/ai-doc-chatbot",
     tech: ["Hugging Face APIs", "Express", "Node.js","React", "CSS"],
   },
@@ -54,8 +53,7 @@ const projects = [
     tech: [
       "Java", "JSP", "Servlets", "JDBC", "Bootstrap", "MySQL", "MVC Architecture"
     ],
-  },
-  {
+  },{
     id: 5,
     title: "Talkr – Social Networking Mobile App",
     description:
