@@ -28,7 +28,7 @@ const projects = [
     title: "AI Document Q&A Chatbot",
     description:
       "An AI-powered chatbot that allows users to upload documents and ask questions directly from their content. The system leverages Hugging Face APIs and context-based prompting to context-aware responses based on the uploaded files.",
-    images: ["/31.png", "/32.png"],
+    images: ["/31.png", "/32.png","/31.png", "/32.png","/31.png", "/32.png", "/31.png"],
     githubLink: "https://github.com/rushisuthar21/ai-doc-chatbot",
     tech: ["Hugging Face APIs", "Express", "Node.js","React", "CSS"],
   },
