@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 /* ---------------- SLIDER IMAGES ---------------- */
 const ikeaImages = [
   "/1.png", "/2.png", "/3.png", "/4.png", "/5.png", "/6.png", "/7.png"];
-  const sunriseImages = [
+const sunriseImages = [
   "/10.png", "/11.png", "/12.png", "/13.png", "/10.png", "/11.png", "/12.png" ];
 const shipImages = [
   "/21.png", "/22.png", "/23.png", "/24.png", "/25.png", "/21.png", "/22.png"];
-const aiImages = ["/21.png", "/22.png", "/23.png", "/24.png", "/25.png", "/21.png", "/22.png"];
+//const aiImages = [];
 
 /* ---------------- PROJECTS DATA ---------------- */
 const projects = [
@@ -24,7 +24,7 @@ const projects = [
       "https://github.com/rushisuthar21/IKEA-Web-Application-MERN-Stack",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
   },
-  {
+  /*{
     id: 2,
     title: "AI Document Q&A Chatbot",
     description:
@@ -32,9 +32,9 @@ const projects = [
     images: aiImages,
     githubLink: "https://github.com/rushisuthar21/ai-doc-chatbot",
     tech: ["Hugging Face APIs", "Express", "Node.js","React", "CSS"],
-  },
+  },*/
   {
-    id: 3,
+    id: 2,
     title: "Sunrise Airways – Airline Reservation System",
     description:
       "A Java-based airline reservation system with role-based authentication, ticket booking, flight management, and booking history.",
@@ -44,7 +44,7 @@ const projects = [
     tech: ["Java", "Swing", "AWT", "MySQL"],
   },
   {
-    id: 4,
+    id: 3,
     title: "Shipping Company Client Records Management System",
     description:
       "A Java-based web application built using JSP, Servlets, JDBC, and Bootstrap to manage shipping company client records. Supports full CRUD (Create, Read, Update, Delete) functionality following MVC architecture.",
@@ -54,8 +54,9 @@ const projects = [
     tech: [
       "Java", "JSP", "Servlets", "JDBC", "Bootstrap", "MySQL", "MVC Architecture"
     ],
-  },{
-    id: 5,
+  },
+  {
+    id: 4,
     title: "Talkr – Social Networking Mobile App",
     description:
       "A Flutter-based social networking app with real-time chat, user authentication, and content sharing powered by Firebase.",
