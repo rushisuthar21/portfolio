@@ -10,7 +10,7 @@ const ikeaImages = [
   "/10.png", "/11.png", "/12.png", "/13.png", "/10.png", "/11.png", "/12.png" ];
 const shipImages = [
   "/21.png", "/22.png", "/23.png", "/24.png", "/25.png", "/21.png", "/22.png"];
-const aiImages = ["/31.png", "/32.png","/31.png", "/32.png","/31.png", "/32.png", "/31.png"];
+const aiImages = ["/21.png", "/22.png", "/23.png", "/24.png", "/25.png", "/21.png", "/22.png"];
 
 /* ---------------- PROJECTS DATA ---------------- */
 const projects = [
@@ -141,7 +141,7 @@ const Projects = () => {
               {project.images && (
                 <motion.img
                   key={currentSlide}
-                  src={project.images?.[currentSlide % project.images.length]}
+                  src={project.images[currentSlide % project.images.length]}
                   className="w-full h-[350px] object-contain"
                   initial={{ opacity: 0.5, scale: 1.05 }}
                   animate={{ opacity: 1, scale: 1 }}
