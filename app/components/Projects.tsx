@@ -76,7 +76,7 @@ const Projects = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % ikeaImages.length);
+      setCurrentSlide((prev) => prev + 1);
     }, 4000);
     return () => clearInterval(interval);
   }, []);
@@ -141,7 +141,7 @@ const Projects = () => {
               {project.images && (
                 <motion.img
                   key={currentSlide}
-                  src={project.images[currentSlide % project.images.length]}
+                  src={project.images?.[currentSlide % project.images.length]}
                   className="w-full h-[350px] object-contain"
                   initial={{ opacity: 0.5, scale: 1.05 }}
                   animate={{ opacity: 1, scale: 1 }}
