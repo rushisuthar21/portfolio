@@ -10,6 +10,7 @@ const ikeaImages = [
   "/10.png", "/11.png", "/12.png", "/13.png", "/10.png", "/11.png", "/12.png" ];
 const shipImages = [
   "/21.png", "/22.png", "/23.png", "/24.png", "/25.png", "/21.png", "/22.png"];
+const aiImages = ["/31.png", "/32.png","/31.png", "/32.png","/31.png", "/32.png", "/31.png"];
 
 /* ---------------- PROJECTS DATA ---------------- */
 const projects = [
@@ -28,7 +29,7 @@ const projects = [
     title: "AI Document Q&A Chatbot",
     description:
       "An AI-powered chatbot that allows users to upload documents and ask questions directly from their content. The system leverages Hugging Face APIs and context-based prompting to context-aware responses based on the uploaded files.",
-    images: ["/31.png", "/32.png","/31.png", "/32.png","/31.png", "/32.png", "/31.png"],
+    images: aiImages,
     githubLink: "https://github.com/rushisuthar21/ai-doc-chatbot",
     tech: ["Hugging Face APIs", "Express", "Node.js","React", "CSS"],
   },
