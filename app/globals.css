@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0a0e14;
+  --ink-soft: #11161f;
+  --ink-soft-2: #161d29;
+  --paper: #edeae1;
+  --muted: #8b93a7;
+  --mint: #4fe3b0;
+  --mint-dim: #2f8f6f;
+  --amber: #ffb454;
+  --coral: #ff6b5e;
+  --line: #232b38;
+}
+
+* {
+  scrollbar-color: var(--mint-dim) var(--ink-soft);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: var(--ink);
+  color: var(--paper);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+::selection {
+  background: var(--mint);
+  color: var(--ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ink-soft);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--mint-dim);
+  border-radius: 8px;
+  border: 2px solid var(--ink-soft);
+}
+
+.font-display {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.font-mono-ui {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Subtle dot-grid backdrop used across sections */
+.grid-backdrop {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(237, 234, 225, 0.08) 1px,
+    transparent 0
+  );
+  background-size: 28px 28px;
+}
+
+/* Faint circuit-trace corner accents */
+.trace-corner {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+.eyebrow {
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: 0.02em;
+}
+
+.glow-mint {
+  box-shadow: 0 0 0 1px rgba(79, 227, 176, 0.25), 0 0 40px -12px rgba(79, 227, 176, 0.35);
+}
+
+.card-surface {
+  background: linear-gradient(180deg, rgba(22, 29, 41, 0.85), rgba(17, 22, 31, 0.85));
+  border: 1px solid var(--line);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
