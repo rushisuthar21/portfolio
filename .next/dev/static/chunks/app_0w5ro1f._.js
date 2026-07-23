@@ -1762,6 +1762,9 @@ const shipImages = [
 /* ---------------- PROJECT CARD ---------------- */ const ProjectCard = ({ project, index })=>{
     _s();
     const [currentSlide, setCurrentSlide] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [isInView, setIsInView] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const mediaRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const videoRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const reversed = index % 2 === 1;
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ProjectCard.useEffect": ()=>{
@@ -1779,6 +1782,41 @@ const shipImages = [
         }
     }["ProjectCard.useEffect"], [
         project.images,
+        project.video
+    ]);
+    // Only load/play video when the card actually scrolls into view.
+    // Loading all videos (autoplay) at once on page load is what causes
+    // the black-screen / GPU crash when scrolling through the projects section.
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "ProjectCard.useEffect": ()=>{
+            if (!project.video || !mediaRef.current) return;
+            const node = mediaRef.current;
+            const observer = new IntersectionObserver({
+                "ProjectCard.useEffect": ([entry])=>setIsInView(entry.isIntersecting)
+            }["ProjectCard.useEffect"], {
+                threshold: 0.25
+            });
+            observer.observe(node);
+            return ({
+                "ProjectCard.useEffect": ()=>observer.disconnect()
+            })["ProjectCard.useEffect"];
+        }
+    }["ProjectCard.useEffect"], [
+        project.video
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "ProjectCard.useEffect": ()=>{
+            if (!project.video || !videoRef.current) return;
+            if (isInView) {
+                videoRef.current.play().catch({
+                    "ProjectCard.useEffect": ()=>{}
+                }["ProjectCard.useEffect"]);
+            } else {
+                videoRef.current.pause();
+            }
+        }
+    }["ProjectCard.useEffect"], [
+        isInView,
         project.video
     ]);
     const currentImage = project.images.length > 0 ? project.images[currentSlide % project.images.length] : null;
@@ -1808,21 +1846,21 @@ const shipImages = [
                         className: "w-2.5 h-2.5 rounded-full bg-[var(--coral)]"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 128,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "w-2.5 h-2.5 rounded-full bg-[var(--amber)]"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 129,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "w-2.5 h-2.5 rounded-full bg-[var(--mint)]"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 130,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1833,35 +1871,40 @@ const shipImages = [
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 131,
+                        lineNumber: 157,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Projects.tsx",
-                lineNumber: 127,
+                lineNumber: 153,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: `flex flex-col ${reversed ? "md:flex-row-reverse" : "md:flex-row"}`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        ref: mediaRef,
                         className: "md:w-1/2 bg-[var(--ink)] flex items-center justify-center p-4",
                         children: project.video ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                            src: project.video,
-                            className: "w-full h-[320px] lg:h-[380px] object-contain rounded-lg",
-                            autoPlay: true,
+                            ref: videoRef,
+                            // Only set src once the card has actually entered view, so the
+                            // browser doesn't try to fetch/decode every project video at once.
+                            src: isInView ? project.video : undefined,
+                            preload: "none",
+                            className: "w-full h-[320px] lg:h-[380px] object-contain rounded-lg bg-black",
                             loop: true,
                             muted: true,
                             playsInline: true,
                             controls: true
                         }, project.video, false, {
                             fileName: "[project]/app/components/Projects.tsx",
-                            lineNumber: 140,
+                            lineNumber: 166,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)) : currentImage ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].img, {
                             src: currentImage,
                             alt: project.title,
+                            loading: "lazy",
                             className: "w-full h-[320px] lg:h-[380px] object-contain rounded-lg",
                             initial: {
                                 opacity: 0.4
@@ -1874,19 +1917,19 @@ const shipImages = [
                             }
                         }, currentSlide, false, {
                             fileName: "[project]/app/components/Projects.tsx",
-                            lineNumber: 151,
+                            lineNumber: 180,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "text-[var(--muted)] text-sm",
                             children: "No image available"
                         }, void 0, false, {
                             fileName: "[project]/app/components/Projects.tsx",
-                            lineNumber: 161,
+                            lineNumber: 191,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 138,
+                        lineNumber: 164,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1897,7 +1940,7 @@ const shipImages = [
                                 children: project.title
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Projects.tsx",
-                                lineNumber: 167,
+                                lineNumber: 197,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1905,7 +1948,7 @@ const shipImages = [
                                 children: project.description
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Projects.tsx",
-                                lineNumber: 168,
+                                lineNumber: 198,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1915,12 +1958,12 @@ const shipImages = [
                                         children: tech
                                     }, i, false, {
                                         fileName: "[project]/app/components/Projects.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 202,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Projects.tsx",
-                                lineNumber: 170,
+                                lineNumber: 200,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             project.githubLink && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1931,29 +1974,29 @@ const shipImages = [
                                 children: "View on GitHub →"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Projects.tsx",
-                                lineNumber: 182,
+                                lineNumber: 212,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 166,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Projects.tsx",
-                lineNumber: 136,
+                lineNumber: 162,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Projects.tsx",
-        lineNumber: 119,
+        lineNumber: 145,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(ProjectCard, "/jm+XmndjAYlDCFyCnfFEXJOloU=");
+_s(ProjectCard, "FKqtGMxm5vpvkKQ8kreBjWGxN/E=");
 _c = ProjectCard;
 /* ---------------- MAIN COMPONENT ---------------- */ const Projects = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1964,7 +2007,7 @@ _c = ProjectCard;
                 className: "absolute top-1/3 -left-20 w-72 h-72 rounded-full bg-[var(--mint)] blur-[140px] opacity-[0.06] pointer-events-none"
             }, void 0, false, {
                 fileName: "[project]/app/components/Projects.tsx",
-                lineNumber: 201,
+                lineNumber: 231,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1975,7 +2018,7 @@ _c = ProjectCard;
                         children: "// projects/"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 204,
+                        lineNumber: 234,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1983,7 +2026,7 @@ _c = ProjectCard;
                         children: "Things I've built"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 205,
+                        lineNumber: 235,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1993,24 +2036,24 @@ _c = ProjectCard;
                                 index: index
                             }, project.id, false, {
                                 fileName: "[project]/app/components/Projects.tsx",
-                                lineNumber: 211,
+                                lineNumber: 241,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/app/components/Projects.tsx",
-                        lineNumber: 209,
+                        lineNumber: 239,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Projects.tsx",
-                lineNumber: 203,
+                lineNumber: 233,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Projects.tsx",
-        lineNumber: 200,
+        lineNumber: 230,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 /* ---------------- TYPES ---------------- */
 interface Project {
@@ -102,6 +102,9 @@ const projects: Project[] = [
 /* ---------------- PROJECT CARD ---------------- */
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
+  const [isInView, setIsInView] = useState(false);
+  const mediaRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const reversed = index % 2 === 1;
 
   useEffect(() => {
@@ -111,6 +114,29 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
     }, 4000);
     return () => clearInterval(interval);
   }, [project.images, project.video]);
+
+  // Only load/play video when the card actually scrolls into view.
+  // Loading all videos (autoplay) at once on page load is what causes
+  // the black-screen / GPU crash when scrolling through the projects section.
+  useEffect(() => {
+    if (!project.video || !mediaRef.current) return;
+    const node = mediaRef.current;
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsInView(entry.isIntersecting),
+      { threshold: 0.25 }
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [project.video]);
+
+  useEffect(() => {
+    if (!project.video || !videoRef.current) return;
+    if (isInView) {
+      videoRef.current.play().catch(() => {});
+    } else {
+      videoRef.current.pause();
+    }
+  }, [isInView, project.video]);
 
   const currentImage =
     project.images.length > 0 ? project.images[currentSlide % project.images.length] : null;
@@ -135,13 +161,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 
       <div className={`flex flex-col ${reversed ? "md:flex-row-reverse" : "md:flex-row"}`}>
         {/* Media */}
-        <div className="md:w-1/2 bg-[var(--ink)] flex items-center justify-center p-4">
+        <div ref={mediaRef} className="md:w-1/2 bg-[var(--ink)] flex items-center justify-center p-4">
           {project.video ? (
             <video
+              ref={videoRef}
               key={project.video}
-              src={project.video}
-              className="w-full h-[320px] lg:h-[380px] object-contain rounded-lg"
-              autoPlay
+              // Only set src once the card has actually entered view, so the
+              // browser doesn't try to fetch/decode every project video at once.
+              src={isInView ? project.video : undefined}
+              preload="none"
+              className="w-full h-[320px] lg:h-[380px] object-contain rounded-lg bg-black"
               loop
               muted
               playsInline
@@ -152,6 +181,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               key={currentSlide}
               src={currentImage}
               alt={project.title}
+              loading="lazy"
               className="w-full h-[320px] lg:h-[380px] object-contain rounded-lg"
               initial={{ opacity: 0.4 }}
               animate={{ opacity: 1 }}
