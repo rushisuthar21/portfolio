@@ -3,7 +3,15 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
+
+// EmailJS config — replace these with the values from your EmailJS
+// dashboard (Account > General for the public key; Email Services /
+// Email Templates for the other two IDs) if your account changes.
+const EMAILJS_SERVICE_ID = "service_7n5e8te";
+const EMAILJS_TEMPLATE_ID = "template_q7koe6v";
+const EMAILJS_PUBLIC_KEY = "H041afUojg5XmW-hY";
+const RECEIVER_EMAIL = "sutharrushi88@gmail.com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -12,7 +20,11 @@ const Contact = () => {
     message: "",
   });
 
-  const [status, setStatus] = useState({ success: false, error: false });
+  const [status, setStatus] = useState<{
+    success: boolean;
+    error: boolean;
+    message?: string;
+  }>({ success: false, error: false });
   const [sending, setSending] = useState(false);
 
   const handleChange = (
@@ -25,28 +37,40 @@ const Contact = () => {
     e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.message) {
-      setStatus({ success: false, error: true });
+      setStatus({ success: false, error: true, message: "Please fill in every field." });
       return;
     }
 
     setSending(true);
+    setStatus({ success: false, error: false });
+
     try {
       await emailjs.send(
-        "service_bl0rvio",
-        "template_0zhanl5",
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
         {
           from_name: formData.name,
           from_email: formData.email,
+          reply_to: formData.email,
           message: formData.message,
+          to_email: RECEIVER_EMAIL,
         },
-        "64b2-KnLKskmMlVNU"
+        { publicKey: EMAILJS_PUBLIC_KEY }
       );
 
       setStatus({ success: true, error: false });
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
+      // Log the real EmailJS error (status/text) to the browser console so it's
+      // easy to diagnose — e.g. "422 The recipients address is empty" usually
+      // means the template's "To Email" field isn't set, and "401/403" means
+      // the service/template/public key IDs don't match your EmailJS account.
       console.error("Error sending email:", error);
-      setStatus({ success: false, error: true });
+      const detail =
+        typeof error === "object" && error !== null && "text" in error
+          ? String((error as { text?: string }).text)
+          : "Please try again or email me directly.";
+      setStatus({ success: false, error: true, message: detail });
     } finally {
       setSending(false);
     }
@@ -182,7 +206,7 @@ const Contact = () => {
                 )}
                 {status.error && (
                   <p className="text-[var(--coral)] text-center text-sm font-mono-ui">
-                    ✗ failed to send — try again later
+                    ✗ {status.message || "failed to send — try again later"}
                   </p>
                 )}
               </form>

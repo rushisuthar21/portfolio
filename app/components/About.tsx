@@ -64,15 +64,15 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.15 }}
         >
-          <div className="absolute w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-gradient-to-tr from-[var(--mint)] to-[var(--amber)] blur-3xl opacity-20" />
+          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[var(--mint)] to-[var(--amber)] blur-3xl opacity-20" />
 
-          <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden card-surface shadow-2xl -rotate-2 hover:rotate-0 transition-transform duration-300">
+          <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-[20rem] lg:max-w-md aspect-square rounded-2xl overflow-hidden card-surface shadow-2xl -rotate-2 hover:rotate-0 transition-transform duration-300">
             <Image
               src="/rushi.JPG"
               alt="Profile Picture"
-              width={500}
-              height={500}
-              className="object-contain p-6"
+              fill
+              sizes="(max-width: 640px) 80vw, (max-width: 768px) 24rem, (max-width: 1024px) 20rem, 28rem"
+              className="object-cover"
               priority
             />
           </div>
