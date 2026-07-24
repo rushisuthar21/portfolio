@@ -149,7 +149,7 @@ const Toolkit = () => {
   }, []);
 
   return (
-    <section id="toolkit" className="relative py-24 overflow-hidden bg-[var(--ink-soft)]">
+    <section id="toolkit" className="relative py-16 overflow-hidden bg-[var(--ink-soft)]">
       <motion.div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[36rem] h-72 rounded-full bg-[var(--mint)] blur-[150px] opacity-[0.06] pointer-events-none"
         animate={
@@ -182,7 +182,7 @@ const Toolkit = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="font-display text-4xl sm:text-5xl font-bold text-[var(--paper)] mb-16 text-center md:text-left"
+          className="font-display text-3xl sm:text-4xl font-bold text-[var(--paper)] mb-10 text-center md:text-left"
         >
           My Toolkit
         </motion.h2>

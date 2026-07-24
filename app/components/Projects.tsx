@@ -170,7 +170,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               // browser doesn't try to fetch/decode every project video at once.
               src={isInView ? project.video : undefined}
               preload="none"
-              className="w-full h-[320px] lg:h-[380px] object-contain rounded-lg bg-black"
+              className="w-full h-[240px] lg:h-[300px] object-contain rounded-lg bg-black"
               loop
               muted
               playsInline
@@ -182,7 +182,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               src={currentImage}
               alt={project.title}
               loading="lazy"
-              className="w-full h-[320px] lg:h-[380px] object-contain rounded-lg"
+              className="w-full h-[240px] lg:h-[300px] object-contain rounded-lg"
               initial={{ opacity: 0.4 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.4 }}
@@ -193,9 +193,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         </div>
 
         {/* Content */}
-        <div className="md:w-1/2 p-8 sm:p-10 space-y-5">
-          <h3 className="text-2xl font-semibold font-display text-[var(--paper)]">{project.title}</h3>
-          <p className="text-base text-[var(--muted)] leading-relaxed">{project.description}</p>
+        <div className="md:w-1/2 p-6 sm:p-8 space-y-4">
+          <h3 className="text-xl font-semibold font-display text-[var(--paper)]">{project.title}</h3>
+          <p className="text-sm sm:text-base text-[var(--muted)] leading-relaxed">{project.description}</p>
 
           <div className="flex flex-wrap gap-2">
             {project.tech.map((tech, i) => (
@@ -227,12 +227,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 /* ---------------- MAIN COMPONENT ---------------- */
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="relative overflow-hidden py-24 bg-[var(--ink)]">
+    <section id="projects" className="relative overflow-hidden py-16 bg-[var(--ink)]">
       <div className="absolute top-1/3 -left-20 w-72 h-72 rounded-full bg-[var(--mint)] blur-[140px] opacity-[0.06] pointer-events-none" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <p className="eyebrow text-sm text-[var(--mint)] mb-4">// projects/</p>
-        <h2 className="font-display text-4xl sm:text-5xl font-bold text-[var(--paper)] mb-16">
+        <h2 className="font-display text-3xl sm:text-4xl font-bold text-[var(--paper)] mb-10">
           Things I&apos;ve built
         </h2>
 

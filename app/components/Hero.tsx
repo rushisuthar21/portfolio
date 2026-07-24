@@ -61,7 +61,7 @@ const Hero = () => {
           </div>
 
           {/* Code body */}
-          <div className="p-8 sm:p-10 lg:p-12 font-mono-ui text-base sm:text-lg lg:text-xl leading-9 sm:leading-10">
+          <div className="p-6 sm:p-8 lg:p-10 font-mono-ui text-sm sm:text-base lg:text-lg leading-7 sm:leading-8">
             <p className="text-[var(--muted)]">
               <span className="text-[var(--amber)]">const</span> developer{" "}
               <span className="text-[var(--muted)]">=</span> {"{"}
@@ -117,7 +117,7 @@ const Hero = () => {
         >
           <div className="relative">
             <div className="absolute -inset-3 rounded-full bg-gradient-to-tr from-[var(--mint)] to-[var(--amber)] opacity-30 blur-3xl" />
-            <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-86 lg:h-86 rounded-2xl overflow-hidden border border-[var(--line)] rotate-2">
+            <div className="relative w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-2xl overflow-hidden border border-[var(--line)] rotate-2">
               <Image src="/profilepic.png" alt="Rushi Suthar" width={400} height={400} className="object-cover w-full h-full" />
             </div>
             <span className="absolute -bottom-3 -right-3 px-3 py-1.5 rounded-full text-xs font-mono-ui bg-[var(--mint)] text-[var(--ink)] font-semibold">
@@ -125,11 +125,11 @@ const Hero = () => {
             </span>
           </div>
 
-          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-[var(--paper)] leading-[1.05]">
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--paper)] leading-[1.05]">
             Hii! I&apos;m Rushi <span className="inline-block"></span>
           </h1>
 
-          <p className="text-[var(--muted)] text-lg lg:text-xl max-w-lg leading-relaxed">
+          <p className="text-[var(--muted)] text-base lg:text-lg max-w-lg leading-relaxed">
             A <span className="text-[var(--mint)] font-semibold">Full-Stack Developer &amp; UI/UX Designer</span>{" "}
             building responsive, scalable web apps &mdash; and solving problems I definitely didn&apos;t create.
           </p>

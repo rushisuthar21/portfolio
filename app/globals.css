@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  /* Scales every rem-based Tailwind utility (text sizes, padding, gaps,
+     widths) down together so the whole site reads as a comfortable
+     "medium" size on both mobile and desktop, instead of oversized. */
+  font-size: 87.5%; /* 14px base instead of 16px */
+}
+
 :root {
   --ink: #0a0e14;
   --ink-soft: #11161f;

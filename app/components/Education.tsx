@@ -30,12 +30,12 @@ const educations = [
 
 const Education = () => {
   return (
-    <section id="education" className="relative overflow-hidden bg-[var(--ink-soft)] py-24">
+    <section id="education" className="relative overflow-hidden bg-[var(--ink-soft)] py-16">
       <div className="absolute -bottom-10 -right-10 w-72 h-72 rounded-full bg-[var(--amber)] blur-[130px] opacity-[0.07] pointer-events-none" />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-10">
         <p className="eyebrow text-sm text-[var(--amber)] mb-4">// academic-journey.log</p>
-        <h2 className="font-display text-4xl sm:text-5xl font-bold text-[var(--paper)] mb-16">
+        <h2 className="font-display text-3xl sm:text-4xl font-bold text-[var(--paper)] mb-10">
           Academic Journey
         </h2>
 

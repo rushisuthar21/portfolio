@@ -32,12 +32,12 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="relative overflow-hidden bg-[var(--ink)] py-24">
+    <section id="experience" className="relative overflow-hidden bg-[var(--ink)] py-16">
       <div className="absolute -top-10 -left-10 w-72 h-72 rounded-full bg-[var(--mint)] blur-[130px] opacity-[0.06] pointer-events-none" />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-10">
         <p className="eyebrow text-sm text-[var(--mint)] mb-4">// git log --experience</p>
-        <h2 className="font-display text-4xl sm:text-5xl font-bold text-[var(--paper)] mb-16">
+        <h2 className="font-display text-3xl sm:text-4xl font-bold text-[var(--paper)] mb-10">
           Professional Experience
         </h2>
 

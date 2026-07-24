@@ -53,14 +53,14 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative py-28 overflow-hidden bg-[var(--ink)] grid-backdrop">
+    <section id="contact" className="relative py-20 overflow-hidden bg-[var(--ink)] grid-backdrop">
       <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-[var(--mint)] blur-[140px] opacity-[0.07] pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-[var(--amber)] blur-[140px] opacity-[0.06] pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto px-6 z-10">
         <div className="text-center mb-16">
           <p className="eyebrow text-sm text-[var(--mint)] mb-4">// contact.send()</p>
-          <h2 className="font-display text-4xl sm:text-5xl font-bold text-[var(--paper)]">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-[var(--paper)]">
             Let&apos;s Connect
           </h2>
         </div>

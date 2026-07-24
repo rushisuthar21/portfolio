@@ -15,7 +15,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative py-32 px-6 md:px-16 lg:px-24 overflow-hidden bg-[var(--ink-soft)]"
+      className="relative py-20 px-6 md:px-16 lg:px-24 overflow-hidden bg-[var(--ink-soft)]"
     >
       <div className="absolute top-0 right-0 w-72 h-72 rounded-full bg-[var(--mint)] blur-[130px] opacity-[0.07] pointer-events-none" />
 
@@ -29,7 +29,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="eyebrow text-sm text-[var(--mint)] mb-4">// about-me.md</p>
-          <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--paper)]">
+          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--paper)]">
             Who&apos;s writing this code?
           </h2>
 
@@ -66,7 +66,7 @@ const About = () => {
         >
           <div className="absolute w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-gradient-to-tr from-[var(--mint)] to-[var(--amber)] blur-3xl opacity-20" />
 
-          <div className="relative w-90 h-90 sm:w-98 sm:h-98 md:w-26 md:h-26 rounded-2xl overflow-hidden card-surface shadow-2xl -rotate-2 hover:rotate-0 transition-transform duration-300">
+          <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden card-surface shadow-2xl -rotate-2 hover:rotate-0 transition-transform duration-300">
             <Image
               src="/rushi.JPG"
               alt="Profile Picture"
