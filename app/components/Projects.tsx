@@ -26,8 +26,6 @@ const sunriseImages = [
   "/10.png", "/11.png", "/12.png", "/13.png", "/10.png", "/11.png", "/12.png",
 ];
 
-const aiDocImages = ["/ai1.png", "/ai2.png"];
-
 const shipImages = [
   "/21.png", "/22.png", "/23.png", "/24.png", "/25.png", "/21.png", "/22.png",
 ];
@@ -48,7 +46,8 @@ const projects: Project[] = [
     title: "AI Document Chatbot",
     description:
       "An AI-powered document chatbot that allows users to upload documents and interact with them through natural language conversations. Built for document understanding, retrieval, and intelligent Q&A.",
-    images: aiDocImages,
+    video: "/AIChatbot.mp4",
+    images: [],
     githubLink: "https://github.com/rushisuthar21/ai-doc-chatbot",
     tech: ["Next.js", "TypeScript", "OpenAI", "LangChain", "Vector Database", "Tailwind CSS"],
   },
