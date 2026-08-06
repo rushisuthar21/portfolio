@@ -53,6 +53,14 @@ const projects: Project[] = [
   },
   {
     id: 3,
+    title: "Shipping Company Client Records Management System",
+    description: "A Java-based web application built using JSP, Servlets, JDBC, and Bootstrap.",
+    images: shipImages,
+    githubLink: "https://github.com/rushisuthar21/Roosewald-Shipping-Company",
+    tech: ["Java", "JSP", "Servlets", "JDBC", "Bootstrap", "MySQL"],
+  },
+  {
+    id: 7,
     title: "Travelion Inc. – Travel & Tourism Website UI Design",
     description:
       "A modern, immersive travel website UI designed in Figma to help users discover destinations, explore accommodations, and plan trips — with a visually appealing hero, destination showcases, and conversion-focused CTAs.",
@@ -62,7 +70,7 @@ const projects: Project[] = [
     tech: ["Figma", "Components & Variants"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Donut Packaging – Figma Motion Design",
     description:
       "An interactive Figma animation exploring product packaging motion — smooth transitions, micro-interactions, and playful timing built entirely with Figma's Smart Animate.",
@@ -71,7 +79,7 @@ const projects: Project[] = [
     tech: ["Figma", "Smart Animate", "Motion Design", "Prototyping"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Red Bull – Figma Motion Design",
     description:
       "A dynamic product-focused animation prototype built in Figma, showcasing brand-driven motion design with fluid transitions and energetic pacing.",
@@ -80,7 +88,7 @@ const projects: Project[] = [
     tech: ["Figma", "Smart Animate", "Motion Design", "Prototyping"],
   },
   {
-    id: 6,
+    id: 4,
     title: "Sunrise Airways – Airline Reservation System",
     description:
       "A Java-based airline reservation system with role-based authentication, ticket booking, flight management, and booking history.",
@@ -88,14 +96,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/rushisuthar21/Sunrise-Airlines---Airline-Management-System",
     tech: ["Java", "Swing", "AWT", "MySQL"],
   },
-  {
-    id: 7,
-    title: "Shipping Company Client Records Management System",
-    description: "A Java-based web application built using JSP, Servlets, JDBC, and Bootstrap.",
-    images: shipImages,
-    githubLink: "https://github.com/rushisuthar21/Roosewald-Shipping-Company",
-    tech: ["Java", "JSP", "Servlets", "JDBC", "Bootstrap", "MySQL"],
-  },
+  
 ];
 
 /* ---------------- PROJECT CARD ---------------- */

@@ -12,7 +12,7 @@ const Hero = () => {
 
   const lines = [
     { key: 'name', label: "name", value: `"Rushi Suthar"` },
-    { key: 'role', label: "role", value: `"Full-Stack Developer & UI/UX Designer"` },
+    { key: 'role', label: "role", value: `"Full-Stack Developer"` },
     { key: 'base', label: "basedIn", value: `"Toronto, CA"` },
     { key: 'focus', label: "focus", value: `"build scalable web apps + solve problems I didn't create"` },
     { key: 'status', label: "status", value: `"open to work"` },
@@ -130,7 +130,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-[var(--muted)] text-base lg:text-lg max-w-lg leading-relaxed">
-            A <span className="text-[var(--mint)] font-semibold">Full-Stack Developer &amp; UI/UX Designer</span>{" "}
+            A <span className="text-[var(--mint)] font-semibold">Full-Stack Developer</span>{" "}
             building responsive, scalable web apps &mdash; and solving problems I definitely didn&apos;t create.
           </p>
 

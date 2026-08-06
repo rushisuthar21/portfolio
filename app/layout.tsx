@@ -3,9 +3,9 @@ import FloatingNavbar from "./components/FloatingNavbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Rushi Suthar — Full-Stack Developer & UI/UX Designer",
+  title: "Rushi Suthar",
   description:
-    "Portfolio of Rushi Suthar, a full-stack developer and UI/UX designer building responsive, scalable web applications.",
+    "Portfolio of Rushi Suthar, a full-stack developer building responsive, scalable web applications.",
 };
 
 export default function RootLayout({
