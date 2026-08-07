@@ -52,7 +52,7 @@ const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "OpenAI", "LangChain", "Vector Database", "Tailwind CSS"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Shipping Company Client Records Management System",
     description: "A Java-based web application built using JSP, Servlets, JDBC, and Bootstrap.",
     images: shipImages,
@@ -88,7 +88,7 @@ const projects: Project[] = [
     tech: ["Figma", "Smart Animate", "Motion Design", "Prototyping"],
   },
   {
-    id: 4,
+    id: 3,
     title: "Sunrise Airways – Airline Reservation System",
     description:
       "A Java-based airline reservation system with role-based authentication, ticket booking, flight management, and booking history.",
