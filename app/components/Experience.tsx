@@ -5,6 +5,16 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    title: "Full Stack Developer(Remote)",
+    company: "AAN Web Solutions",
+    date: "Oct 2025 – July 2026",
+    description: [
+      "Build and maintain full-stack applications end-to-end using React.js, TypeScript, Node.js, and Express.js, connecting frontend interfaces to PostgreSQL database and REST APIs based on client requirements.  ",
+      "Handle feature development across the stack — authentication, role-based access, database schema design, and deployment on AWS and Azure — while working in an Agile/Scrum workflow from Figma handoff through code review. ",
+    ],
+    techStack: ["CSS" ,"TypeScript", "Node.js", "Express.js", "REST APIs", "Swagger", "PostgreSQL", "AWS", "Azure"],
+  },
+  {
     title: "Full Stack Developer - Co-op",
     company: "Credwise Financial Inc.",
     date: "May 2025 – Dec 2025",
